@@ -7,6 +7,8 @@ This is a minimalistic HTTP server using `FastAPI` and `strawberry-graphql` that
 1. Install the required dependencies:
 
    ```bash
+   pip install pip-tools
+   pip-compile requirements.in
    pip install -r requirements.txt
    ```
 
